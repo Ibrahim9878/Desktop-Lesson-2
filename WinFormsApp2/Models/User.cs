@@ -9,45 +9,44 @@ public class User
 
 	public string Name
 	{
-		get { return _name; }
-		set { if (_name.Length < 3 && _name.Length > 18) throw new Exception("Name is wrong"); _name = value; }
+        get;
+        set;
 	}
 	private string _surname;
 
 	public string Surname
 	{
-		get { return _surname; }
-		set { if (_surname.Length < 3 && Name.Length > 18) throw new Exception("Surname is wrong"); _surname = value; }
+        get;
+        set;
 	}
 
 	private string _country;
 	public string Country
 	{
-		get { return _country; }
-		set { if (_country.Length < 3 && _country.Length > 18) throw new Exception("Country is wrong"); _country = value; }
+        get;
+        set;
 	}
 
 	private string  profession;
 
-	public string  Profession
-	{
-		get { return profession; }
-		set { if (profession.Length < 3 && profession.Length > 15) throw new Exception("profession is wrong"); profession = value; }
-	}
+	public string Profession
+    {
+        get;
+        set;
+    }
 
     private string _city;
     public string City
     {
-        get { return _city; }
-        set { if (_city.Length < 3 && _city.Length > 18) throw new Exception("City is wrong"); _city = value; }
+        get;
+        set;
     }
 
 
     private string _phone;
     public string Phone
     {
-        get { return _phone; }
-        set { if (_phone.Length < 3 && _phone.Length > 18) throw new Exception("Phone is wrong"); _city = value; }
+        get; set;
     }
 
 	public DateTime Date { get; set; }

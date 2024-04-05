@@ -52,25 +52,29 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(246, 41);
+            textBox1.BackColor = Color.White;
+            textBox1.BorderStyle = BorderStyle.FixedSingle;
+            textBox1.Location = new Point(9, 24);
             textBox1.Name = "textBox1";
+            textBox1.PlaceholderText = "Name";
             textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 0;
             // 
             // buttonLoad
             // 
-            buttonLoad.Location = new Point(444, 40);
+            buttonLoad.BackColor = Color.Teal;
+            buttonLoad.Location = new Point(181, 15);
             buttonLoad.Name = "buttonLoad";
-            buttonLoad.Size = new Size(75, 23);
+            buttonLoad.Size = new Size(92, 36);
             buttonLoad.TabIndex = 1;
             buttonLoad.Text = "Load";
-            buttonLoad.UseVisualStyleBackColor = true;
+            buttonLoad.UseVisualStyleBackColor = false;
             buttonLoad.Click += buttonLoad_Click;
             // 
             // LabelName
             // 
             LabelName.AutoSize = true;
-            LabelName.Location = new Point(161, 119);
+            LabelName.Location = new Point(9, 86);
             LabelName.Name = "LabelName";
             LabelName.Size = new Size(25, 15);
             LabelName.TabIndex = 2;
@@ -79,7 +83,7 @@
             // LabelSurname
             // 
             LabelSurname.AutoSize = true;
-            LabelSurname.Location = new Point(161, 158);
+            LabelSurname.Location = new Point(9, 112);
             LabelSurname.Name = "LabelSurname";
             LabelSurname.Size = new Size(45, 15);
             LabelSurname.TabIndex = 3;
@@ -88,7 +92,7 @@
             // labelProfession
             // 
             labelProfession.AutoSize = true;
-            labelProfession.Location = new Point(161, 197);
+            labelProfession.Location = new Point(9, 136);
             labelProfession.Name = "labelProfession";
             labelProfession.Size = new Size(34, 15);
             labelProfession.TabIndex = 4;
@@ -97,7 +101,7 @@
             // labelCountry
             // 
             labelCountry.AutoSize = true;
-            labelCountry.Location = new Point(161, 239);
+            labelCountry.Location = new Point(9, 178);
             labelCountry.Name = "labelCountry";
             labelCountry.Size = new Size(37, 15);
             labelCountry.TabIndex = 5;
@@ -105,39 +109,43 @@
             // 
             // NameText
             // 
-            NameText.Location = new Point(246, 111);
+            NameText.BorderStyle = BorderStyle.FixedSingle;
+            NameText.Location = new Point(73, 78);
             NameText.Name = "NameText";
             NameText.PlaceholderText = "Name";
-            NameText.Size = new Size(100, 23);
+            NameText.Size = new Size(183, 23);
             NameText.TabIndex = 6;
             // 
             // SurnameText
             // 
-            SurnameText.Location = new Point(246, 158);
+            SurnameText.BorderStyle = BorderStyle.FixedSingle;
+            SurnameText.Location = new Point(73, 104);
             SurnameText.Name = "SurnameText";
             SurnameText.PlaceholderText = "Surname";
-            SurnameText.Size = new Size(100, 23);
+            SurnameText.Size = new Size(183, 23);
             SurnameText.TabIndex = 7;
             // 
             // ProfessionText
             // 
-            ProfessionText.Location = new Point(246, 194);
+            ProfessionText.BorderStyle = BorderStyle.FixedSingle;
+            ProfessionText.Location = new Point(73, 133);
             ProfessionText.Name = "ProfessionText";
             ProfessionText.PlaceholderText = "Profession";
-            ProfessionText.Size = new Size(100, 23);
+            ProfessionText.Size = new Size(183, 23);
             ProfessionText.TabIndex = 8;
             // 
             // CountryText
             // 
-            CountryText.Location = new Point(246, 231);
+            CountryText.BorderStyle = BorderStyle.FixedSingle;
+            CountryText.Location = new Point(73, 170);
             CountryText.Name = "CountryText";
             CountryText.PlaceholderText = "Country";
-            CountryText.Size = new Size(100, 23);
+            CountryText.Size = new Size(183, 23);
             CountryText.TabIndex = 9;
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(246, 357);
+            dateTimePicker1.Location = new Point(73, 275);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(200, 23);
             dateTimePicker1.TabIndex = 10;
@@ -145,7 +153,7 @@
             // labelDate
             // 
             labelDate.AutoSize = true;
-            labelDate.Location = new Point(161, 365);
+            labelDate.Location = new Point(14, 275);
             labelDate.Name = "labelDate";
             labelDate.Size = new Size(34, 15);
             labelDate.TabIndex = 11;
@@ -154,7 +162,7 @@
             // MaleRadio
             // 
             MaleRadio.AutoSize = true;
-            MaleRadio.Location = new Point(246, 415);
+            MaleRadio.Location = new Point(73, 315);
             MaleRadio.Name = "MaleRadio";
             MaleRadio.Size = new Size(51, 19);
             MaleRadio.TabIndex = 12;
@@ -165,7 +173,7 @@
             // femaleRadio
             // 
             femaleRadio.AutoSize = true;
-            femaleRadio.Location = new Point(323, 413);
+            femaleRadio.Location = new Point(146, 315);
             femaleRadio.Name = "femaleRadio";
             femaleRadio.Size = new Size(63, 19);
             femaleRadio.TabIndex = 13;
@@ -176,7 +184,7 @@
             // labelGender
             // 
             labelGender.AutoSize = true;
-            labelGender.Location = new Point(161, 417);
+            labelGender.Location = new Point(15, 317);
             labelGender.Name = "labelGender";
             labelGender.Size = new Size(33, 15);
             labelGender.TabIndex = 14;
@@ -184,16 +192,17 @@
             // 
             // CityText
             // 
-            CityText.Location = new Point(246, 260);
+            CityText.BorderStyle = BorderStyle.FixedSingle;
+            CityText.Location = new Point(73, 198);
             CityText.Name = "CityText";
             CityText.PlaceholderText = "City";
-            CityText.Size = new Size(100, 23);
+            CityText.Size = new Size(183, 23);
             CityText.TabIndex = 16;
             // 
             // labelSeher
             // 
             labelSeher.AutoSize = true;
-            labelSeher.Location = new Point(161, 268);
+            labelSeher.Location = new Point(9, 207);
             labelSeher.Name = "labelSeher";
             labelSeher.Size = new Size(39, 15);
             labelSeher.TabIndex = 15;
@@ -201,16 +210,17 @@
             // 
             // PhoneText
             // 
-            PhoneText.Location = new Point(246, 301);
+            PhoneText.BorderStyle = BorderStyle.FixedSingle;
+            PhoneText.Location = new Point(73, 227);
             PhoneText.Name = "PhoneText";
             PhoneText.PlaceholderText = "Phone";
-            PhoneText.Size = new Size(100, 23);
+            PhoneText.Size = new Size(183, 23);
             PhoneText.TabIndex = 18;
             // 
             // labelPhone
             // 
             labelPhone.AutoSize = true;
-            labelPhone.Location = new Point(161, 309);
+            labelPhone.Location = new Point(9, 235);
             labelPhone.Name = "labelPhone";
             labelPhone.Size = new Size(48, 15);
             labelPhone.TabIndex = 17;
@@ -218,19 +228,20 @@
             // 
             // buttonSave
             // 
-            buttonSave.Location = new Point(12, 357);
+            buttonSave.BackColor = Color.Teal;
+            buttonSave.Location = new Point(95, 347);
             buttonSave.Name = "buttonSave";
-            buttonSave.Size = new Size(75, 23);
+            buttonSave.Size = new Size(95, 35);
             buttonSave.TabIndex = 19;
             buttonSave.Text = "Save";
-            buttonSave.UseVisualStyleBackColor = true;
+            buttonSave.UseVisualStyleBackColor = false;
             buttonSave.Click += buttonSave_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(280, 394);
             Controls.Add(buttonSave);
             Controls.Add(PhoneText);
             Controls.Add(labelPhone);
@@ -251,8 +262,10 @@
             Controls.Add(LabelName);
             Controls.Add(buttonLoad);
             Controls.Add(textBox1);
+            MaximizeBox = false;
             Name = "Form1";
             Text = "Form1";
+            WindowState = FormWindowState.Minimized;
             ResumeLayout(false);
             PerformLayout();
         }
